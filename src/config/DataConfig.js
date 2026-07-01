@@ -10,6 +10,7 @@ import ProfileFotoTwo from "../assets/profile/ProfileTwo.jpg"
 import ProfileFotoThree from "../assets/profile/fotoThree.jpeg"
 import ProfileFotofOUR from "../assets/profile/profileFour.jpg"
 import ProfileFotofive from "../assets/profile/foto_five.jpg"
+import ProfileFotoSix from "../assets/profile/foto_six.jpg.jpg"
 export const ConfiDataImage = {
     dataImageFoto: [
         {
@@ -75,5 +76,11 @@ export const dataConfigMessage = [
         class: "Rekayasa Perangkat Lunak",
         quote: "setiap orang memiliki bahasa mereka sendiri -s",
         image: ProfileFotofive
+    },
+    {
+        name: "Niken Natasya R.B",
+        class: "Rekayasa Perangkat Lunak",
+        quote: "SUKSES SELALU BUAT PMR SKETSU!!! DOAIN AKU TAHUN DEPAN BISA LOLOS PTN YAA",
+        image: ProfileFotoSix
     }
 ]
