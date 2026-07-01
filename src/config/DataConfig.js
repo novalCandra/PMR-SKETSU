@@ -10,7 +10,7 @@ import ProfileFotoTwo from "../assets/profile/ProfileTwo.jpg"
 import ProfileFotoThree from "../assets/profile/fotoThree.jpeg"
 import ProfileFotofOUR from "../assets/profile/profileFour.jpg"
 import ProfileFotofive from "../assets/profile/foto_five.jpg"
-import ProfileFotoSix from "../assets/profile/foto_six.jpg.jpg"
+import ProfileFotoSix from "../assets/profile/foto_six.jpg"
 export const ConfiDataImage = {
     dataImageFoto: [
         {
