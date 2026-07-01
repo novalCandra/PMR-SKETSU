@@ -4,10 +4,10 @@ const Footer = () => {
   return (
     <footer className="bg-gray-50 dark:bg-gray-900 border-t border-gray-100 dark:border-gray-800 pt-16 pb-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid md:grid-cols-4 gap-12 mb-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12 mb-12">
 
           {/* Brand */}
-          <div className="col-span-1 md:col-span-1">
+          <div className="col-span-1 sm:col-span-2 lg:col-span-1">
             <div className="flex items-center gap-2 mb-6">
               <span className="font-bold text-xl tracking-tight text-brand-dark dark:text-white">PMR<span className="text-brand-red">Sketsu</span></span>
             </div>
@@ -43,7 +43,7 @@ const Footer = () => {
           </div>
 
           {/* Contact */}
-          <div className="col-span-1 md:col-span-2">
+          <div className="col-span-1 sm:col-span-2 lg:col-span-2">
             <h4 className="font-bold text-brand-dark dark:text-white mb-6">Contact Us</h4>
             <ul className="space-y-4">
               <li className="flex items-start gap-3">

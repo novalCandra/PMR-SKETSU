@@ -30,7 +30,7 @@ const Benefits = () => {
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
+        <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
 
           <motion.div
             initial={{ opacity: 0, x: -50 }}
@@ -39,7 +39,7 @@ const Benefits = () => {
             transition={{ duration: 0.6 }}
           >
             <h2 className="text-white/80 font-bold tracking-wide uppercase text-sm mb-2">Mengapa Bergabung dengan Kami?</h2>
-            <h3 className="text-3xl md:text-5xl font-extrabold text-white mb-6 leading-tight">
+            <h3 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white mb-6 leading-tight">
               Kembangkan Potensi Anda & Tunjukkan Keunggulan Anda
             </h3>
             <p className="text-white/90 text-lg mb-8 leading-relaxed">
@@ -63,7 +63,7 @@ const Benefits = () => {
             transition={{ duration: 0.6 }}
             className="relative"
           >
-            <div className="bg-white dark:bg-gray-900 rounded-3xl p-8 shadow-2xl relative z-10">
+            <div className="bg-white dark:bg-gray-900 rounded-3xl p-6 sm:p-8 shadow-2xl relative z-10">
               <div className="flex justify-between items-center mb-8 pb-8 border-b border-gray-100 dark:border-gray-800">
                 <div>
                   <h4 className="text-4xl font-extrabold text-brand-dark dark:text-white">100%</h4>

@@ -28,7 +28,7 @@ const Testimonials = () => {
           <h3 className="text-3xl md:text-4xl font-extrabold text-brand-dark dark:text-white">Pesan & Kesan PMR Sketsu</h3>
         </div>
 
-        <div className="relative bg-white dark:bg-gray-900 rounded-3xl p-8 md:p-12 shadow-xl border border-gray-100 dark:border-gray-800">
+        <div className="relative bg-white dark:bg-gray-900 rounded-3xl p-6 sm:p-8 md:p-12 shadow-xl border border-gray-100 dark:border-gray-800">
           <Quote className="absolute top-8 left-8 h-16 w-16 text-gray-100 dark:text-gray-800 z-0" />
 
           <div className="relative z-10 min-h-[240px] flex flex-col justify-center">

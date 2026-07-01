@@ -12,7 +12,7 @@ const Hero = () => {
       <div className="absolute -bottom-8 left-1/2 w-80 h-80 bg-pink-300 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob animation-delay-4000 dark:opacity-10 dark:mix-blend-screen"></div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
-        <div className="grid md:grid-cols-2 gap-12 items-center">
+        <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center py-8 md:py-0">
 
           {/* Text Content */}
           <motion.div
@@ -21,31 +21,31 @@ const Hero = () => {
             transition={{ duration: 0.8 }}
             className="space-y-8"
           >
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-red-100 dark:bg-red-900/30 text-brand-red font-semibold text-sm">
-              <Activity className="h-4 w-4" />
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-red-100 dark:bg-red-900/30 text-brand-red font-semibold text-xs sm:text-sm max-w-full">
+              <Activity className="h-4 w-4 flex-shrink-0" />
               <span>Kegiatan Ekstrakurikuler Palang Merah Remaja</span>
             </div>
 
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-extrabold text-brand-dark dark:text-white leading-tight">
-              Menjadi Generasi yang  <span className='text-transparent bg-clip-text bg-gradient-to-r from-brand-red to-pink-500'>Menyelamatkan Nyawa</span>
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-brand-dark dark:text-white leading-tight">
+              Menjadi Generasi yang <span className='text-transparent bg-clip-text bg-gradient-to-r from-brand-red to-pink-500'>Menyelamatkan Nyawa</span>
             </h1>
 
             <p className="text-lg text-gray-600 dark:text-gray-300 max-w-lg leading-relaxed">
               Bergabunglah dengan PMR dan mulailah perjalanan yang penuh dengan nilai-nilai kemanusiaan, kerja sama tim, dan kepemimpinan. Pelajari keterampilan pertolongan pertama yang penting, jalin persahabatan yang langgeng, dan buatlah perubahan nyata di komunitasmu
             </p>
 
-            <div className="flex flex-wrap gap-4 pt-4">
-              <a href="#register" className="flex items-center gap-2 bg-brand-red hover:bg-red-700 text-white px-8 py-4 rounded-full font-semibold transition-all shadow-lg hover:shadow-brand-red/40 hover:-translate-y-1">
+            <div className="flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4 pt-4">
+              <a href="#register" className="flex items-center justify-center gap-2 bg-brand-red hover:bg-red-700 text-white px-8 py-4 rounded-full font-semibold transition-all shadow-lg hover:shadow-brand-red/40 hover:-translate-y-1">
                 Ikuti sekarang <ArrowRight className="h-5 w-5" />
               </a>
-              <a href="#about" className="flex items-center gap-2 bg-white dark:bg-gray-800 hover:bg-gray-50 dark:hover:bg-gray-700 text-brand-dark dark:text-white border border-gray-200 dark:border-gray-700 px-8 py-4 rounded-full font-semibold transition-all shadow-sm hover:shadow-md hover:-translate-y-1">
+              <a href="#about" className="flex items-center justify-center gap-2 bg-white dark:bg-gray-800 hover:bg-gray-50 dark:hover:bg-gray-700 text-brand-dark dark:text-white border border-gray-200 dark:border-gray-700 px-8 py-4 rounded-full font-semibold transition-all shadow-sm hover:shadow-md hover:-translate-y-1">
                 Pelajari Lebih Lanjut
               </a>
             </div>
 
             {/* Stats/Social Proof */}
-            <div className="pt-8 flex items-center gap-6">
-              <div className="flex -space-x-3">
+            <div className="pt-6 flex flex-wrap items-center gap-4">
+              <div className="flex -space-x-3 flex-shrink-0">
                 {[1, 2, 3, 4].map((i) => (
                   <img key={i} className="w-10 h-10 rounded-full border-2 border-white dark:border-gray-800 object-cover" src={`https://i.pravatar.cc/150?img=${i + 10}`} alt="Member" />
                 ))}

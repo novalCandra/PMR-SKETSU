@@ -21,7 +21,7 @@ export default function Gallery({ gallery }) {
           </motion.div>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 lg:gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 lg:gap-6">
           {gallery.map((item, index) => (
             <motion.div
               key={index}
@@ -34,7 +34,7 @@ export default function Gallery({ gallery }) {
               <img
                 src={item.src}
                 alt={`PMR Activity ${index + 1}`}
-                className="w-full h-48 md:h-72 object-cover transition-transform duration-700 group-hover:scale-110"
+                className="w-full h-56 sm:h-64 md:h-72 object-cover transition-transform duration-700 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
                 <div>
