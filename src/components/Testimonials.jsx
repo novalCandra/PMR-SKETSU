@@ -31,7 +31,7 @@ const Testimonials = () => {
         <div className="relative bg-white dark:bg-gray-900 rounded-3xl p-8 md:p-12 shadow-xl border border-gray-100 dark:border-gray-800">
           <Quote className="absolute top-8 left-8 h-16 w-16 text-gray-100 dark:text-gray-800 z-0" />
 
-          <div className="relative z-10 min-h-[200px] flex flex-col justify-center">
+          <div className="relative z-10 min-h-[240px] flex flex-col justify-center">
             <AnimatePresence mode="wait">
               <motion.div
                 key={currentIndex}
@@ -41,14 +41,14 @@ const Testimonials = () => {
                 transition={{ duration: 0.5 }}
                 className="text-center"
               >
-                <p className="text-xl md:text-2xl text-gray-700 dark:text-gray-300 font-medium italic mb-8">
+                <p className="text-xl md:text-2xl text-gray-700 dark:text-gray-300 font-medium italic mb-6">
                   "{dataConfigMessage[currentIndex].quote}"
                 </p>
                 <div className="flex flex-col items-center">
                   <img
                     src={dataConfigMessage[currentIndex].image}
                     alt={dataConfigMessage[currentIndex].name}
-                    className="w-16 h-16 rounded-full border-4 border-white dark:border-gray-800 shadow-md mb-4"
+                    className="w-24 h-24 md:w-28 md:h-28 rounded-full border-4 border-brand-red shadow-lg mb-4 object-cover"
                   />
                   <h4 className="font-bold text-brand-dark dark:text-white text-lg">{dataConfigMessage[currentIndex].name}</h4>
                   <p className="text-gray-500 dark:text-gray-400 text-sm">{dataConfigMessage[currentIndex].class}</p>
