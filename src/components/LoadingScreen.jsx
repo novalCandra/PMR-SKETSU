@@ -175,7 +175,7 @@ export default function LoadingScreen({ onComplete }) {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 1.5, duration: 0.6, ease: 'easeOut' }}
             >
-              Palang Merah Semaja 
+              Palang Merah Remaja 
             </motion.p>
           </div>
 
