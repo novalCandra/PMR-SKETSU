@@ -11,6 +11,8 @@ import ProfileFotoThree from "../assets/profile/fotoThree.jpeg"
 import ProfileFotofOUR from "../assets/profile/profileFour.jpg"
 import ProfileFotofive from "../assets/profile/foto_five.jpg"
 import ProfileFotoSix from "../assets/profile/foto_six.jpg"
+import ProfileFotoSeven from "../assets/profile/foto_seven.webp"
+import ProfileFotoEight from "../assets/profile/foto_eight.jpg"
 export const ConfiDataImage = {
     dataImageFoto: [
         {
@@ -82,5 +84,17 @@ export const dataConfigMessage = [
         class: "Rekayasa Perangkat Lunak",
         quote: "SUKSES SELALU BUAT PMR SKETSU!!! DOAIN AKU TAHUN DEPAN BISA LOLOS PTN YAA",
         image: ProfileFotoSix
+    },
+    {
+        name: "Arya",
+        class: "Rekayasa Perangkat Lunak",
+        quote: "I hope the number of members will grow, and I also hope that every event or program organized will continue to be supported by the school",
+        image: ProfileFotoSeven
+    },
+    {
+        name: "Sofia Putri Hasanah",
+        class: "Rekayasa Perangkat Lunak",
+        quote: "Untuk adik-adik PMR, tetaplah semangat dalam belajar dan mengembangkan diri. Jadilah relawan yang memiliki rasa empati, disiplin, dan bertanggung jawab. Jangan pernah lelah untuk berbuat baik dan membantu sesama. Jaga kekompakan tim, hormati pembina, serta terus harumkan nama PMR di sekolah dengan prestasi dan sikap yang baik. Semoga PMR semakin maju dan terus melahirkan generasi yang peduli, tangguh, dan berjiwa kemanusiaan. Semangatt!!!😽✨️",
+        image: ProfileFotoEight
     }
 ]
