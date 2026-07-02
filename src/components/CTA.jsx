@@ -25,12 +25,11 @@ const CTA = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
-              <button className="w-full sm:w-auto bg-brand-red hover:bg-red-700 text-white px-8 py-4 rounded-full font-bold text-lg transition-all shadow-lg hover:shadow-brand-red/40 hover:-translate-y-1 flex items-center justify-center gap-2">
-                Register Online <Send className="h-5 w-5" />
-              </button>
-              <button className="w-full sm:w-auto bg-white/10 hover:bg-white/20 text-white border border-white/20 px-8 py-4 rounded-full font-bold text-lg transition-all flex items-center justify-center gap-2">
-                Contact Kakak Sofi <Phone className="h-5 w-5" />
-              </button>
+              <a href="https://forms.gle/Y9xHU5Zkq2oin7re8" target='_blank'>
+                <button className="w-full sm:w-auto bg-brand-red hover:bg-red-700 text-white px-8 py-4 rounded-full font-bold text-lg transition-all shadow-lg hover:shadow-brand-red/40 hover:-translate-y-1 flex items-center justify-center gap-2">
+                  Pendaftaran Online <Send className="h-5 w-5" />
+                </button>
+              </a>
             </div>
 
             <p className="mt-8 text-white/60 text-sm">

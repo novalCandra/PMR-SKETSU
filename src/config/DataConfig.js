@@ -13,6 +13,7 @@ import ProfileFotofive from "../assets/profile/foto_five.jpg"
 import ProfileFotoSix from "../assets/profile/foto_six.jpg"
 import ProfileFotoSeven from "../assets/profile/foto_seven.webp"
 import ProfileFotoEight from "../assets/profile/foto_eight.jpg"
+import ProfileFotoNine from "../assets/profile/foto_nine.jpeg"
 export const ConfiDataImage = {
     dataImageFoto: [
         {
@@ -96,5 +97,11 @@ export const dataConfigMessage = [
         class: "Rekayasa Perangkat Lunak",
         quote: "Untuk adik-adik PMR, tetaplah semangat dalam belajar dan mengembangkan diri. Jadilah relawan yang memiliki rasa empati, disiplin, dan bertanggung jawab. Jangan pernah lelah untuk berbuat baik dan membantu sesama. Jaga kekompakan tim, hormati pembina, serta terus harumkan nama PMR di sekolah dengan prestasi dan sikap yang baik. Semoga PMR semakin maju dan terus melahirkan generasi yang peduli, tangguh, dan berjiwa kemanusiaan. Semangatt!!!😽✨️",
         image: ProfileFotoEight
+    },
+    {
+        name: "Elvina",
+        class: "Teknik Kimia Industri",
+        quote: "Semoga kita selalu siap membantu sesama, tetap solid dalam setiap kegiatan, dan terus membawa nama baik organisasi dengan tindakan nyata. Tetap semangat, tetap peduli, dan jangan pernah lelah untuk berbuat baik.",
+        image: ProfileFotoNine
     }
 ]
